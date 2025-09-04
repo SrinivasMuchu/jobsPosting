@@ -1,4 +1,6 @@
 
+
+import Image from 'next/image';
 import styles from './WhatAbout.module.css';
 
 function WhatAbout() {
@@ -17,11 +19,14 @@ function WhatAbout() {
 				</p>
 			</div>
 			<div className={styles.whatAboutRight}>
-				<img
-					src="/career-visualization.png"
-					alt="Career Path Visualization"
-					className={styles.visualizationImg}
-				/>
+				   <Image
+					   src="/career-visualization.png"
+					   alt="Career Path Visualization"
+					   className={styles.visualizationImg}
+					   width={480}
+					   height={300}
+					   style={{ objectFit: 'cover', borderRadius: '4px', background: '#9ca3af' }}
+				   />
 			</div>
 		</section>
 	);

@@ -6,7 +6,7 @@ function WhyUs() {
     <section className={styles.whyUsSection}>
       <h2 className={styles.whyUsTitle}>Why konnect?</h2>
       <div className={styles.whyUsSubtitle}>
-        Choosing the right career today is harder than ever. We're here to change that.
+        Choosing the right career today is harder than ever. We&apos;re here to change that.
       </div>
       <div className={styles.whyUsGrid}>
         <div className={styles.whyUsCard}>
@@ -15,9 +15,9 @@ function WhyUs() {
           </div>
           <ul>
             <li>Job boards only show vacancies</li>
-            <li>Degrees don't translate into clear opportunities</li>
+            <li>Degrees don&apos;t translate into clear opportunities</li>
             <li>Professionals feel lost switching industries</li>
-            <li>Students struggle with "What's the right path?"</li>
+            <li>Students struggle with &quot;What&apos;s the right path?&quot;</li>
           </ul>
         </div>
         <div className={styles.whyUsCard}>
@@ -34,10 +34,10 @@ function WhyUs() {
       </div>
       <div className={styles.whyUsHighlight}>
         <div className={styles.whyUsHighlightTitle}>
-          We're not just about finding a job
+          We&apos;re not just about finding a job
         </div>
         <div className={styles.whyUsHighlightDesc}>
-          We're about helping you understand where you belong, what skills you need, and where your future can take you.
+          We&apos;re about helping you understand where you belong, what skills you need, and where your future can take you.
         </div>
       </div>
     </section>
