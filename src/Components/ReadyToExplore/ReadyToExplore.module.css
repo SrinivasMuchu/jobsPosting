@@ -1,0 +1,68 @@
+.exploreSection {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 56px 0 64px 0;
+}
+
+.exploreTitle {
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.exploreSubtitle {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+
+.exploreActions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.exploreBtn {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 14px 38px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #fff;
+  color: #111;
+  transition: background 0.2s, color 0.2s;
+}
+
+.exploreBtnSecondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-left: 0;
+}
+
+.exploreBtn:hover {
+  background: #e3e6ea;
+}
+
+.exploreBtnSecondary:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .exploreTitle {
+    font-size: 1.3rem;
+  }
+  .exploreSubtitle {
+    font-size: 1rem;
+  }
+  .exploreBtn, .exploreBtnSecondary {
+    padding: 12px 18px;
+    font-size: 0.98rem;
+  }
+}

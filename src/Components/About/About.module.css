@@ -1,0 +1,23 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+  margin-top: 40px;
+}
+
+.aboutDesc {
+  color: #425466;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

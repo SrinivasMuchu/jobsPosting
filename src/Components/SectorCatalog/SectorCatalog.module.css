@@ -1,0 +1,66 @@
+.sectorSection {
+  background: #f7f8fa;
+  padding: 48px 0 0 0;
+  text-align: center;
+}
+
+.sectorTitle {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.sectorSubtitle {
+  color: #5a6a7a;
+  font-size: 1.2rem;
+  margin-bottom: 36px;
+}
+
+.sectorGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.sectorCard {
+  background: #fff;
+  border: 1px solid #e3e6ea;
+  border-radius: 2px;
+  flex: 1 1 320px;
+  max-width: 340px;
+  min-width: 240px;
+  padding: 28px 32px 24px 32px;
+  text-align: left;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectorCardTitle {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sectorCardDesc {
+  color: #425466;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+  .sectorGrid {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sectorCard {
+    max-width: 100%;
+    padding: 20px 12px 18px 12px;
+  }
+}
