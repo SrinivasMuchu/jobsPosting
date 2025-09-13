@@ -6,7 +6,7 @@ function Footer() {
 		<footer className={styles.footerSection} id='contact'>
 			<div className={styles.footerContent}>
 				<div className={styles.footerCol}>
-					<div className={styles.footerLogo}>konnect</div>
+					<div className={styles.footerLogo}>Rolvary</div>
 					<div className={styles.footerDesc}>
 						Your comprehensive career exploration platform for the future of work.
 					</div>
@@ -31,7 +31,7 @@ function Footer() {
 				</div>
 			</div>
 			<div className={styles.footerBottom}>
-				© 2025 konnect. All rights reserved.
+				© 2025 Rolvary. All rights reserved.
 			</div>
 		</footer>
 	);

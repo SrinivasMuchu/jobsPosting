@@ -4,7 +4,7 @@ import styles from './WhyUs.module.css';
 function WhyUs() {
   return (
     <section className={styles.whyUsSection}>
-      <h2 className={styles.whyUsTitle}>Why konnect?</h2>
+      <h2 className={styles.whyUsTitle}>Why Rolvary?</h2>
       <div className={styles.whyUsSubtitle}>
         Choosing the right career today is harder than ever. We&apos;re here to change that.
       </div>

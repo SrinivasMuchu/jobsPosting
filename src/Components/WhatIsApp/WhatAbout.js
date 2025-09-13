@@ -7,9 +7,9 @@ function WhatAbout() {
 	return (
 		<section className={styles.whatAboutSection}>
 			<div className={styles.whatAboutLeft}>
-				<h2 className={styles.whatAboutTitle}>What is konnect?</h2>
+				<h2 className={styles.whatAboutTitle}>What is Rolvary?</h2>
 				<p className={styles.whatAboutDesc}>
-					The konnect is a comprehensive tool that brings together career paths from diverse fields such as Arts, Business, Commerce, Education, Engineering, Finance, Healthcare, Humanities, and Law.
+					The Rolvary is a comprehensive tool that brings together career paths from diverse fields such as Arts, Business, Commerce, Education, Engineering, Finance, Healthcare, Humanities, and Law.
 				</p>
 				<p className={styles.whatAboutDesc}>
 					Designed for students, professionals, and career advisors, it allows users to filter by category, sector, sub-discipline, and role while exploring essential details like skills, education backgrounds, industries, and career progression.
@@ -20,7 +20,7 @@ function WhatAbout() {
 			</div>
 			<div className={styles.whatAboutRight}>
 				   <Image
-					   src="/career-visualization.png"
+					   src="/what-is-connect.png"
 					   alt="Career Path Visualization"
 					   className={styles.visualizationImg}
 					   width={480}

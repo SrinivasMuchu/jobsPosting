@@ -6,7 +6,7 @@ function ReadyToExplore() {
 		<section className={styles.exploreSection}>
 			<div className={styles.exploreTitle}>Ready to Explore Your Career Path?</div>
 			<div className={styles.exploreSubtitle}>
-				Join thousands of students, professionals, and advisors who are already using konnect<br />
+				Join thousands of students, professionals, and advisors who are already using Rolvary<br />
 				to navigate their career journeys.
 			</div>
 			<div className={styles.exploreActions}>

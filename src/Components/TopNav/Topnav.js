@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Topnav.module.css';
 
@@ -7,7 +8,9 @@ function Topnav() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>konnect</div>
+      <div className={styles.logo}>
+        <Image src="/name-logo.png" alt="rolvary Logo" width={140} height={40} priority />
+      </div>
       <div className={styles.menuIcon} onClick={() => setMenuOpen(!menuOpen)}>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
