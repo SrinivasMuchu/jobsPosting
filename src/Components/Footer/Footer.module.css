@@ -1,3 +1,50 @@
+/* Contact Form Styles */
+.footerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #1a2230;
+  padding: 24px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  max-width: 340px;
+}
+
+.footerForm input,
+.footerForm textarea {
+  background: #232c39;
+  color: #e3e6ea;
+  border: 1px solid #2e3a4d;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  resize: none;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.footerForm input:focus,
+.footerForm textarea:focus {
+  border: 1.5px solid #4f8cff;
+}
+
+.footerForm button {
+  background: linear-gradient(90deg, #4f8cff 0%, #38b6ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+}
+
+.footerForm button:hover {
+  background: linear-gradient(90deg, #38b6ff 0%, #4f8cff 100%);
+  box-shadow: 0 4px 16px rgba(79,140,255,0.15);
+}
 .footerSection {
   background: #151c26;
   color: #e3e6ea;
