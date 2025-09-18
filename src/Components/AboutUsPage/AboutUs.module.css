@@ -1,0 +1,80 @@
+/* AboutUs.module.css */
+.aboutUsContainer {
+  width: 100%;
+ 
+  padding: 40px 24px 32px 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  /* background: #eaf2fd; */
+  border-radius: 22px;
+  /* box-shadow: 0 4px 32px rgba(30, 60, 90, 0.08); */
+  position: relative;
+}
+
+.aboutUsImage {
+  min-width: 50%;
+  height: 60vh;
+  object-fit: cover;
+  /* border-radius: 50%; */
+  margin-bottom: 28px;
+  /* box-shadow: 0 4px 24px rgba(30, 60, 90, 0.10); */
+  border: 6px solid #fff;
+  background: #fff;
+}
+
+.aboutUsTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #174ea6;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 12px rgba(23,78,166,0.08);
+}
+
+.aboutUsContent {
+  font-size: 1.18rem;
+  color: #1a2a3a;
+  line-height: 1.8;
+  text-align: justify;
+  /* text-align: center; */
+  margin-bottom: 0;
+  background: #fff;
+  border-radius: 14px;
+  /* box-shadow: 0 2px 12px rgba(30, 60, 90, 0.07); */
+  padding: 28px 24px 18px 24px;
+  max-width: 700px;
+  margin-top: 0;
+}
+
+@media (max-width: 1100px) {
+  .aboutUsContainer {
+    max-width: 99vw;
+    padding: 24px 2vw 18px 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutUsContainer {
+    padding: 10vw 2vw 4vw 2vw;
+    border-radius: 12px;
+    justify-content: center;
+  }
+  .aboutUsImage {
+    width: 100%;
+    /* height: 110px;
+    margin-bottom: 12px;
+    border-width: 3px; */
+  }
+  .aboutUsTitle {
+    /* font-size: 1.3rem; */
+    margin-bottom: 10px;
+  }
+  .aboutUsContent {
+    font-size: 0.98rem;
+    padding: 14px 6px 10px 6px;
+  }
+}

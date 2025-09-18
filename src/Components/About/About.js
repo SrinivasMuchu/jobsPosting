@@ -1,17 +1,15 @@
 import React from 'react';
 import styles from './About.module.css';
 
+
 function About() {
   return (
-    <div className={styles.aboutContainer} id='about'>
-      <h1 className={styles.aboutTitle}>
-        <span className={styles.textHighlight}>About Rolvary</span>
-      </h1>
-      <p className={styles.aboutDesc}>
-        <span className={styles.textHighlight}>
-          A comprehensive career exploration platform that connects your skills, education, and passions to real opportunities across diverse industries.
-        </span>
-      </p>
+    <div className={styles.aboutContainer}>
+      <blockquote className={styles.slogan}>
+        <span className={styles.sloganQuoteMark}>&ldquo;</span>
+        <span className={styles.sloganText}>One search today, a career tomorrow. Find your dream job now.</span>
+        <span className={styles.sloganQuoteMark}>&rdquo;</span>
+      </blockquote>
     </div>
   );
 }

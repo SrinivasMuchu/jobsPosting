@@ -1,0 +1,106 @@
+/* AboutUsHighlights.module.css */
+.highlightsSection {
+  background: transparent;
+  border-radius: 0;
+  margin: 0 auto 0 auto;
+  padding: 0 0 36px 0;
+  max-width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.highlightCard {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(30, 60, 90, 0.07);
+  flex: 1 1 260px;
+  min-width: 240px;
+  max-width: 320px;
+  padding: 24px 18px 20px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.highlightTitle {
+  background: #eaf2fd;
+  color: #1a2a3a;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  padding: 6px 14px;
+  margin-bottom: 14px;
+  display: inline-block;
+}
+
+.highlightText {
+  color: #2d3a4a;
+  font-size: 1rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.comingSoonCard {
+  align-items: center;
+  text-align: center;
+}
+
+.comingSoonCircle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 8px solid #2563eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin: 0 auto 12px auto;
+  background: #f7fafd;
+}
+
+.comingSoonLabel {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a2a3a;
+  margin-bottom: 6px;
+}
+
+.comingSoonTime {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 2px;
+}
+
+.comingSoonSub {
+  color: #2d3a4a;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .highlightsSection {
+    flex-direction: column;
+    gap: 18px;
+    padding: 18px 4vw 18px 4vw;
+  }
+  .highlightCard {
+    max-width: 100%;
+    min-width: 0;
+    padding: 18px 10px 16px 10px;
+  }
+  .comingSoonCircle {
+    width: 80px;
+    height: 80px;
+    font-size: 1rem;
+  }
+  .comingSoonTime {
+    font-size: 1.3rem;
+  }
+}

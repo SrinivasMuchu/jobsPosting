@@ -1,3 +1,57 @@
+.slogan {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #174ea6;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+  line-height: 1.18;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+  background: none;
+  border: none;
+  padding: 0 0 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.3em;
+}
+
+.sloganQuoteMark {
+  font-size: 3.2rem;
+  color: #2563eb;
+  font-family: serif;
+  font-weight: 900;
+  line-height: 1;
+  vertical-align: top;
+  margin: 0 0.1em;
+  opacity: 0.7;
+}
+
+.sloganText {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #174ea6;
+  font-family: inherit;
+  text-shadow: 0 2px 12px rgba(23,78,166,0.08);
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 700px) {
+  .slogan {
+    font-size: 1.5rem;
+    max-width: 98vw;
+    flex-direction: column;
+    gap: 0;
+  }
+  .sloganQuoteMark {
+    font-size: 2.1rem;
+  }
+  .sloganText {
+    font-size: 1.1rem;
+  }
+}
 .aboutContainer {
   display: flex;
   flex-direction: column;
