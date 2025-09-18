@@ -22,10 +22,10 @@ function AboutUs() {
         />
       
         <div className={styles.aboutUsContent}>
-          Welcome to Rolvary, the innovative job listing platform where "Role Varies" is more than just a name—it's our core belief. At Rolvary, we understand that careers are dynamic and evolving. Roles change and grow as individuals develop their skills and discover new paths.<br /><br />
-          Our mission is to connect job seekers and employers in an environment that embraces change and opportunity. Whether you're exploring new career options or looking to hire adaptable talent, Rolvary is your trusted partner in the journey of professional growth.<br /><br />
-          We provide a comprehensive and user-friendly platform to discover diverse job roles, supporting the ever-changing nature of careers. With Rolvary, finding your dream job or the perfect candidate has never been easier.<br /><br />
-          Join us as we redefine the way roles vary and careers unfold.
+    Welcome to Rolvary, the innovative job listing platform where &quot;Role Varies&quot; is more than just a name&mdash;it&apos;s our core belief. At Rolvary, we understand that careers are dynamic and evolving. Roles change and grow as individuals develop their skills and discover new paths.<br /><br />
+    Our mission is to connect job seekers and employers in an environment that embraces change and opportunity. Whether you&apos;re exploring new career options or looking to hire adaptable talent, Rolvary is your trusted partner in the journey of professional growth.<br /><br />
+    We provide a comprehensive and user-friendly platform to discover diverse job roles, supporting the ever-changing nature of careers. With Rolvary, finding your dream job or the perfect candidate has never been easier.<br /><br />
+    Join us as we redefine the way roles vary and careers unfold.
         </div>
       </div>
       <h1 className={styles.aboutUsTitle}>Problem Statement</h1>
